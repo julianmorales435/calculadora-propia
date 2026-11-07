@@ -1,0 +1,56 @@
+
+# ==========================================
+# Proyecto C++ - Calculadora Modular
+# ==========================================
+
+# Ejecutables de Windows
+*.exe
+*.dll
+
+# Archivos objeto y compilados
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+
+# Archivos de depuración
+*.pdb
+*.ilk
+*.dSYM/
+
+# Carpetas de compilación
+build/
+debug/
+Debug/
+release/
+Release/
+bin/
+obj/
+out/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*~
+*.bak
+
+# Archivos generados por CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# VS Code: configuración local
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+!.vscode/extensions.json
+
+# Configuración del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
