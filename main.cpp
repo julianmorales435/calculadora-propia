@@ -13,6 +13,7 @@ int main() {
     cout << "Ingrese el segundo numero: ";
     cin >> b;
 
+    cout << "\nEsta es la calculadora de Julian";
     cout << "\n1. Sumar";
     cout << "\n2. Restar";
     cout << "\n3. Multiplicar";
