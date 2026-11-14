@@ -18,6 +18,7 @@ int main() {
     cout << "\n2. Restar";
     cout << "\n3. Multiplicar";
     cout << "\n4. Dividir";
+    cout << "\n5. Elevado"; 
     cout << "\nSeleccione una opcion: ";
     cin >> opcion;
 
@@ -36,6 +37,9 @@ int main() {
                 cout << dividir(a, b);
             else
                 cout << "No se puede dividir por cero";
+            break;
+        case 5:
+            //aqui deberia poner la funcion de elevado que hice en el examen
             break;
         default:
             cout << "Opcion invalida";
